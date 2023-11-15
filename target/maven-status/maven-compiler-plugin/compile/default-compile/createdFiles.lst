@@ -5,6 +5,7 @@ pwo/LucasGenerator.class
 pwo/app/SeqToFileApp.class
 pwo/seq/TribonacciGenerator.class
 pwo/utils/SequenceTools.class
+pwo/app/SeqToOutApp.class
 pwo/Zadanie2.class
 pwo/SequenceTools2.class
 pwo/app/Sequence.class
