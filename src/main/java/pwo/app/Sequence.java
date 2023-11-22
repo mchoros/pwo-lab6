@@ -1,7 +1,16 @@
 package pwo.app;
 
+/**
+ * Klasa generatora Sequence reprezentująca główną klasę programu do generowania sekwencji liczb
+ * @author student
+ */
+
 public class Sequence {
 
+    /**
+     * Główna metoda generatora sequence
+     * @param args 
+     */
     public static void main(String[] args) {
       //  (new SeqToFileApp()).run(args);
     switch(args.length){

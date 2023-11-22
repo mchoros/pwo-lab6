@@ -5,12 +5,23 @@ import java.nio.file.Paths;
 import pwo.seq.SeqType;
 import pwo.utils.SequenceTools;
 
+/**
+ * Klasa generatora pozwalająca na zapis do pliku wybranego ciągu
+ * @author student
+ */
+
 class SeqToFileApp {
 
     protected SeqType seqType = null;
     protected Integer from = null, to = null;
     protected String fileName = null;
 
+    /**
+     * Pobieranie i analiza argumentów dla aplikacji SeqToFileApp
+     * @param args
+     * @return 
+     */
+    
     protected boolean getArgs(String[] args) {
         try {
             seqType = SeqType.fromString(args[0]);
@@ -30,6 +41,10 @@ class SeqToFileApp {
         return seqType != null && from >= 0 && to >= 0;
     }
 
+    /**
+     * Zapis sekwencji liczb do pliku
+     * @return 
+     */
     protected boolean wirteSeq() {
         return SequenceTools.writeToFile(
                 seqType.getGenerator(),
@@ -38,7 +53,10 @@ class SeqToFileApp {
                 fileName
         );
     }
-
+/**
+ * Metoda uruchamiająca aplikację SeqToFileApp
+ * @param args 
+ */
     public void run(String[] args) {
         System.out.println("Sequence to file CLI app");
 

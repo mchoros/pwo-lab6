@@ -4,8 +4,20 @@ import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
 
+/**
+ *
+ * @author student
+ */
 public class SequenceTools2 {
 
+    /**
+     *
+     * @param generator
+     * @param from
+     * @param to
+     * @param fileName
+     * @return
+     */
     public static boolean writeToFile(
             LucasGenerator generator,
             int from, int to,

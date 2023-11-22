@@ -1,8 +1,18 @@
 package pwo;
 
 import java.util.Scanner;
+
+/**
+ *
+ * @author student
+ */
 public class LucasGenerator {
-   public static void main(String[] args) { 
+ 
+    /**
+     *
+     * @param args
+     */
+    public static void main(String[] args) { 
 
      int a=2,b=1,c,i;
 		Scanner sc=new Scanner(System.in);

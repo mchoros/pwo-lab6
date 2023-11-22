@@ -1,10 +1,30 @@
 package pwo;
 
+/**
+ *
+ * @author student
+ */
 public class Zadanie2 {
 
-    public static final int FROM = 0, TO = 100;
+    /**
+     *
+     */
+    public static final int FROM = 0,
+
+    /**
+     *
+     */
+    TO = 100;
+
+    /**
+     *
+     */
     public static final String FILE_NAME = "lucas100.txt";
 
+    /**
+     *
+     * @param args
+     */
     public static void main(String[] args) {
 
         System.out.println("Lucas wersja 1");
